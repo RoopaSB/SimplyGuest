@@ -1,8 +1,10 @@
 package com.example.roopa.simplyguest;
 
+import android.content.Intent;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class HomePage extends AppCompatActivity {
 
@@ -16,4 +18,10 @@ public class HomePage extends AppCompatActivity {
         viewPager.setAdapter(adapter);
 
 }
+    public void onClickLogin(View v){
+
+        Intent intent = new Intent(this, LoginPage.class);
+        startActivity(intent);
+
+    }
 }
