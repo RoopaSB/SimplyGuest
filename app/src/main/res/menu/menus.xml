@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="SimplyGuest Intro"
+        android:id="@+id/menu_intro"
+        android:icon="@drawable/ic_slideshow_black_24dp"/>
+    <item
+        android:id="@+id/menu_feature"
+        android:title="Features of Our Flat"
+        android:icon="@drawable/ic_home_black_24dp"/>
+    <item
+        android:id="@+id/menu_houserules"
+        android:title="House Rules"
+        android:icon="@drawable/ic_view_list_black_24dp"/>
+    <item
+        android:id="@+id/menu_shortlist"
+        android:title="Short Listed"
+        android:icon="@drawable/ic_favorite_border_black_24dp"/>
+
+
+
+</menu>
